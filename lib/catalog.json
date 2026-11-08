@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": "301",
+      "slug": "nabi-vitamin-whitening-body-night-cream",
+      "name": "নাবি ভিটামিন হোয়াইটেনিং বডি নাইট ক্রিম",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/b54761f7-36be-489c-88cd-9ecd4c48464c.jpeg",
+      "price": 890,
+      "originalPrice": 1200,
+      "stock": 40
+    },
+    {
+      "id": "302",
+      "slug": "mgw-beauty-body-combo",
+      "name": "এমজিডব্লিউ বিউটি বডি কম্বো — সিরাম ও লোশন",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/724ec24b-83b0-4287-b4a1-f8658205ded8.jpeg",
+      "price": 1490,
+      "originalPrice": 1990,
+      "stock": 30
+    },
+    {
+      "id": "303",
+      "slug": "elmore-gold-ultra-whitening-body-cream",
+      "name": "এলমোর গোল্ড আল্ট্রা হোয়াইটেনিং বডি ক্রিম",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/279a8981-a761-4795-ac6b-93235e2f1495.jpeg",
+      "price": 990,
+      "originalPrice": 1450,
+      "stock": 35
+    },
+    {
+      "id": "304",
+      "slug": "magic-dust-whitening-soap",
+      "name": "ম্যাজিক ডাস্ট হোয়াইটেনিং সোপ",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/1b6de56e-22e5-4188-88ee-4be888cf7e0b.jpeg",
+      "price": 180,
+      "originalPrice": 250,
+      "stock": 80
+    },
+    {
+      "id": "305",
+      "slug": "super-bright-multi-vitamins-facial-foam",
+      "name": "সুপার ব্রাইট মাল্টি ভিটামিন ফেসিয়াল ফোম",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/e033012a-27aa-4402-9a9f-241fe4e662ad.jpeg",
+      "price": 420,
+      "originalPrice": 650,
+      "stock": 50
+    },
+    {
+      "id": "306",
+      "slug": "carrot-honey-rice-milk-cleanser",
+      "name": "ক্যারট হানি রাইস মিল্ক ফোমিং ক্লেনজার",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/a96db12a-4dd4-4d0d-896c-3d4a39f3170f.jpeg",
+      "price": 390,
+      "originalPrice": 580,
+      "stock": 50
+    },
+    {
+      "id": "307",
+      "slug": "kashmir-herbal-beauty-cream",
+      "name": "কাশ্মীর হার্বাল বিউটি ক্রিম",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/d740d923-4c4c-49ac-b10e-1c73f636ec74.jpeg",
+      "price": 280,
+      "originalPrice": 450,
+      "stock": 60
+    },
+    {
+      "id": "308",
+      "slug": "super-slimming-herb",
+      "name": "সুপার স্লিমিং হার্ব — ৩০ ক্যাপসুল",
+      "category": "স্কিনকেয়ার",
+      "image": "/images/new/3545a98c-c77d-47b2-8511-637638311cfc.jpeg",
+      "price": 750,
+      "originalPrice": 1100,
+      "stock": 40
+    }
+  ],
+  "categories": [
+    {
+      "slug": "skincare",
+      "name": "স্কিনকেয়ার",
+      "image": "/images/new/e033012a-27aa-4402-9a9f-241fe4e662ad.jpeg"
+    }
+  ]
+}

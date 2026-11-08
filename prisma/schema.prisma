@@ -1,0 +1,59 @@
+generator client {
+  provider = "prisma-client"
+  output = "../lib/generated/prisma"
+}
+datasource db {
+  provider = "postgresql"
+}
+model Product {
+  id String @id
+  slug String @unique
+  name String
+  category String
+  image String
+  price Int
+  originalPrice Int
+  stock Int @default(100)
+  deletedAt DateTime?
+  updatedAt DateTime @default(now()) @updatedAt
+  createdAt DateTime @default(now())
+  items OrderItem[]
+}
+model Order {
+  id String @id @default(cuid())
+  name String
+  phone String
+  address String
+  district String
+  total Int
+  delivery Int
+  status String @default("PENDING")
+  createdAt DateTime @default(now())
+  items OrderItem[]
+}
+model OrderItem {
+  id String @id @default(cuid())
+  orderId String
+  productId String
+  productName String @default("")
+  quantity Int
+  price Int
+  order Order @relation(fields:[orderId], references:[id])
+  product Product @relation(fields:[productId], references:[id])
+}
+
+model Admin {
+  id String @id @default(cuid())
+  email String @unique
+  passwordHash String
+  failedAttempts Int @default(0)
+  lockedUntil DateTime?
+  sessions AdminSession[]
+}
+model AdminSession {
+  tokenHash String @id
+  adminId String
+  expiresAt DateTime
+  admin Admin @relation(fields:[adminId], references:[id], onDelete: Cascade)
+  @@index([expiresAt])
+}
